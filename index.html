@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eternal City Ministries International</title>
+    <meta name="description" content="Transforming nations through Christ's eternal life." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="theme-color" content="#0b2b46">
+  </head>
+  <body>
+    <div id="pageTransition" class="page-transition" aria-hidden="true"></div>
+
+    <header>
+      <nav class="nav">
+        <div class="brand">
+          <img src="assets/logo.png" alt="Eternal City Ministries logo">
+          <h1>Eternal City Ministries</h1>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="program.html">Programs</a>
+          <a href="Partner.html">Partner</a>
+          <a href="Contact.html">Contact</a>
+          <span id="authArea"></span>
+          <a class="cta" href="index.html#newsletter">Subscribe</a>
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></div>
+      </nav>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="program.html">Programs</a>
+        <a href="Partner.html">Partner</a>
+        <a href="Contact.html">Contact</a>
+        <a href="index.html#newsletter">Subscribe</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="slides">
+          <div class="slide active"><img src="assets/hero1.jpg" alt="Worship" class="slide-img"></div>
+          <div class="slide"><img src="assets/hero2.jpg" alt="Service" class="slide-img"></div>
+          <div class="slide"><img src="assets/hero3.jpg" alt="Outreach" class="slide-img"></div>
+          <div class="slide"><img src="assets/hero4.jpg" alt="Fellowship" class="slide-img"></div>
+          <div class="slide"><img src="assets/hero5.jpg" alt="Ministry" class="slide-img"></div>
+          <div class="slide"><img src="assets/hero6.jpg" alt="Community" class="slide-img"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Transforming Nations Through Christ's Eternal Life</h1>
+          <p class="muted">A global ministry bringing the hope, healing and teaching of Jesus to communities worldwide.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">Plan a Visit</a>
+            <a class="btn btn-ghost" href="program.html">View Programs</a>
+          </div>
+          <div style="margin-top:18px;display:flex;gap:12px;align-items:center;justify-content:center">
+            <small class="muted">Service Times:</small>
+            <div class="time-pill"><strong>Sun 9:00 AM</strong></div>
+            <div class="time-pill">Wed 5:00 PM</div>
+          </div>
+        </div>
+        <div class="arrow left" id="prev">‹</div>
+        <div class="arrow right" id="next">›</div>
+        <div class="hero-controls" id="dots"></div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <h3 class="section-title">About Us</h3>
+          <p class="section-sub">Rooted in scripture, focused on discipleship, outreach and community transformation.</p>
+          <div class="cards">
+            <div class="card">
+              <h4>Our Vision</h4>
+              <p>To bring nations into the eternal life of Christ through worship, teaching and compassionate outreach.</p>
+            </div>
+            <div class="card">
+              <h4>Our Mission</h4>
+              <p>Equip believers, strengthen families, and reach communities with the Gospel.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="programs">
+        <div class="container">
+          <h3 class="section-title">Programs</h3>
+          <p class="section-sub">Worship, prayer, discipleship and outreach.</p>
+          <div class="programs-grid">
+            <div class="program-card">
+              <div class="program-media"><img src="assets/sunday-service.jpg" alt="Sunday" class="program-img"></div>
+              <h4>Sunday Service</h4>
+              <p class="muted">Celebratory worship and biblical teaching.</p>
+            </div>
+            <div class="program-card">
+              <div class="program-media"><img src="assets/midweek-service.jpg" alt="Midweek" class="program-img"></div>
+              <h4>Midweek Prayer</h4>
+              <p class="muted">Focused intercession and discipleship.</p>
+            </div>
+            <div class="program-card">
+              <div class="program-media"><img src="assets/eternal-experience.jpg" alt="Eternal Experience" class="program-img"></div>
+              <h4>Eternal Experience</h4>
+              <p class="muted">Annual gathering of worship and prophetic ministry.</p>
+            </div>
+            <div class="program-card">
+              <div class="program-media"><img src="assets/outreach.jpg" alt="Outreach" class="program-img"></div>
+              <h4>Outreach</h4>
+              <p class="muted">Community projects and compassionate service.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <div class="container">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap">
+            <div>
+              <h3 class="section-title">Stay Connected</h3>
+              <p class="section-sub">Subscribe for updates, teachings and event info.</p>
+            </div>
+            <form id="newsletterForm" style="display:flex;gap:12px;align-items:center;">
+              <input name="EMAIL" type="email" placeholder="Your email" required>
+              <button id="subscribeBtn" class="btn btn-primary" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h3>Get In Touch</h3>
+            <p class="muted">YMCA Room 2 Libala, Lusaka, Zambia • +260 770 452 847</p>
+            <div style="margin-top:12px" class="socials">
+              <a href="https://www.facebook.com/share/1MWtw7QaKL/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a href="https://www.instagram.com/eternal.city.ministries" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> Instagram</a>
+              <a class="social-whatsapp" href="https://wa.me/260770452847" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+          </div>
+          <div class="contact-card form-card">
+            <h3>Send a Message</h3>
+            <form id="contactFormModern" class="auth-form active-form">
+              <div class="form-row">
+                <div class="form-group"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your full name" required></div>
+                <div class="form-group"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="Phone or WhatsApp"></div>
+              </div>
+              <div class="form-group"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div>
+              <div class="form-group"><label for="messageText">Message</label><textarea id="messageText" name="message" rows="5" placeholder="How can we help you?" required></textarea></div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <div id="contactResult" class="auth-message" aria-live="polite" style="display:none;margin-top:12px"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="program.html">Programs</a>
+            <a href="Partner.html">Partner</a>
+            <a href="Contact.html">Contact</a>
+          </div>
+          <p class="footer-copy">© <span id="year"></span> Eternal City Ministries International</p>
+        </div>
+        <div>
+          <p class="footer-copy muted">To reach every nation, tribe, and tongue with the Gospel of Jesus Christ.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modalOverlay" class="modal-overlay" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">×</button>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+    <script type="module">
+      // Firebase init moved here so page markup loads first
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-analytics.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyCCxU2lluCuO_c3o0bIcZ0b-FC4NBVfiS8",
+        authDomain: "ecmi-48962.firebaseapp.com",
+        projectId: "ecmi-48962",
+        storageBucket: "ecmi-48962.firebasestorage.app",
+        messagingSenderId: "259495398658",
+        appId: "1:259495398658:web:8eb51cd45799e223e1861b",
+        measurementId: "G-GRRNNWLCFG"
+      };
+      const app = initializeApp(firebaseConfig);
+      try{getAnalytics(app)}catch(e){/* analytics may fail in some contexts */}
+    </script>
+  </body>
+  </html>
+
+

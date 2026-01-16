@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="160" rx="20" fill="#0B2B46"/>
+  <path d="M80 36C66 36 54 48 54 62C54 76 66 88 80 88C94 88 106 76 106 62C106 48 94 36 80 36Z" fill="#CDA34A"/>
+  <path d="M80 92C64 92 44 102 44 118V124H116V118C116 102 96 92 80 92Z" fill="#CDA34A"/>
+  <text x="50%" y="148" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="14">ECMI</text>
+</svg>
